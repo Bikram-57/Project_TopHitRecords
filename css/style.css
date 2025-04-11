@@ -98,10 +98,14 @@ li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* .hover-effect-youtube{
-    background-color: rgb(245, 188, 188);
+.custom-card-background-color{
+    
 }
 
-.hover-effect-youtube:hover{
-    background-color: rgb(223, 159, 159);
-} */
+.custom-card-background-color-2{
+    background-color: rgb(203, 235, 248);
+}
+
+.custom-card-background-color-3{
+    background-color:rgb(252, 219, 219);
+}
