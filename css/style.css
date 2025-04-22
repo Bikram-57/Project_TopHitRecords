@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-list a:hover {
+    color: rgb(19, 216, 19);
+    border-radius: 4px;
+}
+
+.custom-color {
+    color: #046c34;
+}
+
+/* .photo-size {
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+} */
+
+.btn-color {
+    background-color: #046c34;
+    color: white;
+}
+
+.btn-color:hover {
+    background-color: #0b8846;
+    color: white;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-color {
+    color: #7a7a7a;
+}
+
+.edit-icon {
+    background-color: #046c34;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+
+.custom-size img {
+    width: 150px;
+}
+
+
+.places-photo-size {
+    /* width: 550px;
+    height: 250px; */
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+a:active {
+    color: #0b8846;
+}
+
+
+.justified-text {
+    text-align: justify;
+}
+
+.custom-text-size {
+    font-size: 1.1rem;
+}
+
+.custom-photo {
+    background-image: url(/photo/lamahatta-qlsqegz6r0jtr6f483qmvkpbv6h6mp2wbfnppvrdtk.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+.active {
+    border-bottom: 2px solid green;
+}
+
+.a-style {
+    text-decoration: none;
+    color: black;
+}
+
+.li-style {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.active1 {
+    border-left: 2px solid green;
+    background-color: whitesmoke;
+}
+
+.carousel-container {
+    width: 90%;
+    max-width: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 calc(100% / 3);
+    padding: 1rem;
+}
+
+.carousel-item div {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-custom {
+    flex: 0 0 calc(100% / 3);
+}
+
+.img-size{
+    height: 300px;
+}
