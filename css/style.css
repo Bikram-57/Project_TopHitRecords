@@ -196,3 +196,8 @@ a:active {
 .service-background{
         background-color: #d2f1eb;
 }
+
+.aboutus-height{
+    height: 300px;
+    width: 60%;
+}
