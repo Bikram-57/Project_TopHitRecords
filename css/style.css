@@ -166,3 +166,33 @@ a:active {
 .singup-design{
     font-size: 1rem;
 }
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+  }
+  .card img {
+    max-width: 100px;
+    margin: auto;
+  }
+  .card-title {
+    color: #179e8a;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .btn-custom {
+    background-color: #179e8a;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 20px;
+  }
+  .section-title {
+    color: #179e8a;
+    font-weight: 700;
+  }
+
+.service-background{
+        background-color: #d2f1eb;
+}
