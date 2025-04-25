@@ -1,3 +1,18 @@
+
+    function togglePassword() {
+        const passwordInput = document.getElementById("password");
+        const checkbox = document.getElementById("showPassword");
+
+        if (checkbox.checked) {
+            passwordInput.type = "text";
+        } else {
+            passwordInput.type = "password";
+        }
+    }
+
+
+
+
 function whatsapp() {
     var phoneNumber = "+916297103889";
     var message = "Hello, I want to book a stay!";
@@ -30,3 +45,7 @@ function moveCarousel() {
 }
 
 setInterval(moveCarousel, 3000);
+
+
+
+   
